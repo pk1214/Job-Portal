@@ -1,0 +1,440 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #05264e;
+}
+
+.navbar-brand:hover {
+  color: #3c65f5;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: #05264e;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: #3c65f5;
+  transform: scale(1.2);
+}
+
+.nav-link:active {
+  color: #3c65f5;
+}
+
+.big-heading {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.6rem;
+  color: #05264e;
+  line-height: 1.4;
+}
+
+.header-container {
+  padding: 2% 8%;
+}
+
+.header-description {
+  font-size: 1.25rem;
+  color: #4f5e64;
+  line-height: 1.5;
+}
+
+.header-button {
+  margin: 5% 3% 5% 0;
+}
+
+.img-container-header {
+  position: relative;
+}
+
+.header-image {
+  width: 100%;
+  animation: MoveUpDown 4s linear infinite;
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-16px);
+  }
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .header-image {
+    position: static;
+  }
+}
+
+.header-banner {
+  color: #3c65f5;
+}
+
+.header-section {
+  margin-bottom: 4rem;
+}
+
+/* Working Section */
+
+#working-section {
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 2% 8%;
+  background-color: #f9fcff;
+}
+
+/* .working-container {
+  padding: 2% 8%;
+} */
+.working-text {
+  padding: 2% 4%;
+}
+
+.working-image {
+  width: 64%;
+  border-radius: 4%;
+}
+
+p {
+  color: #66789c;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+/* Features Section */
+
+h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1.5;
+  color: #05264e;
+}
+
+h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #05264e;
+}
+
+#features-section {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.features-container {
+  margin-bottom: 2rem;
+  padding: 2% 4%;
+}
+
+.features-box {
+  text-align: center;
+  padding: 5%;
+}
+.icons {
+  margin-bottom: 1rem;
+  width: 16%;
+  filter: invert(35%) sepia(97%) saturate(3803%) hue-rotate(221deg)
+    brightness(99%) contrast(93%);
+}
+/* .features-container {
+  padding: 3% 15%;
+} */
+
+/* Recruiters-Seekers */
+
+#recruiters-seekers {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.recruiter {
+  background-color: #3c65f5;
+  padding: 5% 10%;
+}
+.recruiter-heading,
+.seeker-heading,
+.recruiter-text,
+.seeker-text {
+  color: #fff;
+}
+
+.recruiter-text,
+.seeker-text {
+  font-size: 1rem;
+}
+
+.recruit-seek {
+  font-size: 1.5rem;
+}
+
+.seeker {
+  background-color: #05264e;
+  padding: 5% 10%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  text-align: center;
+  padding: 5%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-value {
+  font-size: 2rem;
+}
+
+/* Statistics Section */
+
+#stats {
+  text-align: center;
+  background-color: #f9fcff;
+  padding: 2% 4%;
+  margin-bottom: 4rem;
+}
+
+/* Review Section */
+#review-section {
+  padding-top: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align: center;
+  background-color: #f9fcff;
+  /* margin-bottom: 1.2rem; */
+}
+
+.carousel-text {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #05264e;
+}
+
+.reviews-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
+
+/* Our team */
+
+#our-team {
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 1.8%;
+  margin-bottom: 2rem;
+}
+
+.teams-container {
+  padding: 4.6% 6%;
+}
+
+.team-name {
+  font-weight: 600;
+  color: #05264e;
+}
+
+.team-image {
+  border-radius: 2%;
+}
+
+.team-socials {
+  padding: 2% 2.8%;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* News and Blogs Section */
+
+.card-container {
+  padding-top: 4.6%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.items-carousel {
+  padding-top: 1%;
+}
+
+.news-blog-heading {
+  text-align: center;
+}
+
+.news-blog-links {
+  text-decoration: none;
+  color: #05264e;
+}
+
+.news-blog-links:hover {
+  color: #3c65f5;
+}
+
+.news-blog-card-text {
+  font-size: 1rem;
+}
+
+/* Newsletter-Section */
+#newsletter {
+  background-color: #f9fcff;
+  text-align: center;
+  padding: 2% 5%;
+}
+
+.news-text {
+  /* padding: 6% 8%; */
+  padding-top: 6.4%;
+  padding-right: 2%;
+}
+
+.news-image {
+  padding-left: 8.4%;
+}
+
+.newsletter-image {
+  width: 100%;
+}
+
+/* Footer Section */
+
+#footer {
+  /* text-align: center; */
+  padding-left: 8%;
+  padding-top: 4%;
+  /* padding-bottom: 4%; */
+  /* padding-right: 4%; */
+}
+
+.footer-heading,
+.footer-home {
+  padding-top: 8%;
+}
+
+.footer-text {
+  padding-top: 6.86%;
+  font-size: 0.88rem;
+}
+
+.footer-links,
+.footer-address,
+.footer-address-bottom {
+  display: inline-block;
+  padding-top: 3.2%;
+  color: #66789c;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.footer-address-bottom {
+  padding-top: 0;
+}
+
+.footer-address {
+  padding-top: 8%;
+}
+
+.menu {
+  text-align: left;
+  padding: 0% 6% 6% 0%;
+}
+
+.footer-social-links {
+  padding: 5% 5% 10% 0;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  width: 90%;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.footer-bottom {
+  padding: 1% 1%;
+}
+
+.footer-bottom-links-hover {
+  padding-right: 4%;
+  display: inline-block;
+}
+
+.footer-location {
+  padding-left: 8%;
+}
+
+.location-icons {
+  color: #3c65f5;
+}
+
+.footer-bottom-paragraph,
+.footer-bottom-links-hover {
+  font-size: 0.8rem;
+  color: #4f5e64;
+}
+
+.footer-links:hover,
+.footer-bottom-links-hover:hover {
+  color: #3c65f5;
+  transform: scale(1.2);
+}
+
+.hvr-grow {
+  transition: all 0.2s ease-in-out;
+}
