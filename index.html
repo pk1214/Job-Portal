@@ -31,19 +31,6 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    
-       <script>
-      document
-        .getElementById("myButton1")
-        .addEventListener("click", function () {
-          window.location.href = "./signup-login-user/signup.html";
-        });
-      document
-        .getElementById("myButton2")
-        .addEventListener("click", function () {
-          window.location.href = "./signup-login-user/signup.html";
-        });
-    </script>
     <!-- External CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -91,11 +78,12 @@
             <p class="header-description">
               Welcome to our job portal, where we connect talented individuals with exciting job opportunities.
             </p>
-            <button type="button" class="header-button btn btn-primary btn-lg">
+            <button type="button"  id="myButton2" class="header-button btn btn-primary btn-lg">
               Find a Job
             </button>
             <button
               type="button"
+                    id="myButton1"
               class="header-button btn btn-outline-dark btn-lg"
             >
               Post a Job
@@ -913,5 +901,17 @@
         </div>
       </div>
     </section>
+        <script>
+      document
+        .getElementById("myButton1")
+        .addEventListener("click", function () {
+          window.location.href = "./signup-login-user/signup.html";
+        });
+      document
+        .getElementById("myButton2")
+        .addEventListener("click", function () {
+          window.location.href = "./signup-login-user/signup.html";
+        });
+    </script>
   </body>
 </html>
