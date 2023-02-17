@@ -1,0 +1,115 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.heading {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #3c65f5;
+}
+
+.corner-profile {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #3c65f5;
+}
+
+.control-label {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #3c65f5;
+}
+
+.form-group {
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.primary-text {
+  color: #05264e;
+}
+
+.second-text {
+  color: #05264e;
+}
+
+.rounded-full {
+  border-radius: 100%;
+}
+
+#wrapper {
+  overflow-x: hidden;
+}
+
+.sidebar-heading,
+.sidebar-links {
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  color: #fff;
+}
+
+.sidebar-wrap {
+  background-color: #3c65f5;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+#menu-toggle {
+  cursor: pointer;
+}
+
+.list-group-item {
+  border: none;
+  padding: 20px 30px;
+}
+
+.list-group-item.active {
+  background-color: transparent;
+  color: var(--main-text-color);
+  font-weight: bold;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
